@@ -1,0 +1,84 @@
+.panel-jugadores {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+    background-color: #4a433c;
+    
+    
+}
+
+.cyw {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+
+h2 { 
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.inputs {
+    display: flex;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    background-color: #26221e;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.boton-x {
+    font-size: 80px;
+    color: #ecec70;
+}
+
+.boton-o {
+    font-size: 80px;
+    color: hsl(195, 82%, 64%);
+}
+
+
+.boton-x:hover {
+    font-size: 80px;
+    color: #ecec70;
+    cursor: pointer;
+}
+
+.boton-o:hover {
+    font-size: 80px;
+    color: hsl(195, 82%, 64%);
+    cursor: pointer;
+}
+
+.boton-x:active {
+    font-size: 80px;
+    color: #ecec70;
+    cursor: pointer;
+    background-color: hsl(30, 12%, 10%);
+}
+
+.boton-o:active {
+    font-size: 80px;
+    color: hsl(195, 82%, 64%);
+    cursor: pointer;
+    background-color: hwb(30 4% 96%);
+}
