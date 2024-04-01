@@ -46,10 +46,14 @@ if (ganador) {
 
 }
 
+const reset = () => {
+  setCasillas(Array(9).fill(null))
+}
+
     return (
       <div>
-        <div className="status">{status}</div>
         <div className="tablero">
+          <div className="status">{status}</div>
             <div className="tablero-fila">
             <Casilla valor={casillas[0]} onClick={() => {handleClick (0)}}/>
             <Casilla valor={casillas[1]} onClick={() => {handleClick (1)}}/>
@@ -66,7 +70,9 @@ if (ganador) {
             <Casilla valor={casillas[8]} onClick={() => {handleClick (8)}}/>
             </div>
         </div>
+        <div onClick={reset}>RESET</div>
         </div>
+        
     )
 }
 
