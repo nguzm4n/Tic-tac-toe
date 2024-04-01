@@ -44,7 +44,6 @@ if (ganador) {
 
 }
 
-
     return (
       <div>
         <div className="status">{status}</div>
