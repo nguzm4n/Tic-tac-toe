@@ -36,6 +36,8 @@ function Tablero() {
     setEsX(!esX)
   }
 
+
+  
 const ganador = calcularGanador(casillas)
 let status 
 if (ganador) {
