@@ -2,7 +2,7 @@ import React from "react";
 import '../estilos/jugadores.css'
 
 
-function Jugadores({}) {
+function Jugadores({jugador1, jugador2}) {
 
 
     return(

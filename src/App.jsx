@@ -1,7 +1,6 @@
 import React from 'react'
 import './estilos/global.css'
-import Jugadores from './componentes/jugadores.jsx'
-
+import Tablero from './componentes/tablero.jsx'
 
 
 
@@ -10,7 +9,8 @@ const App = () => {
     <div className='container'>
         <h1>Tic Tac Toe in React.js</h1>
         <div className='container-juego'>
-        <Jugadores />
+        
+        <Tablero />
         </div>
         
     </div>

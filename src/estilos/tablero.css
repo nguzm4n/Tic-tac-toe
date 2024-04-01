@@ -1,0 +1,19 @@
+.tablero {
+    width:600px ;
+    height: 600px;
+    margin: auto;
+    margin-top: 70px;
+   
+}
+
+.tablero-fila {
+    width: 600px;
+    display: flex;
+}
+
+.status {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-weight: 1000;
+}
